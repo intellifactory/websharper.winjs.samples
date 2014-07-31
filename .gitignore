@@ -1,0 +1,5 @@
+Content/*
+*.suo
+bin/*
+obj/*
+packages/*

@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Tests</title>
+        <script src="Content/Tests.head.js"></script>
+        <link rel="stylesheet" href="Content/Tests.css" />
+        <link rel="stylesheet" href="Styles.css" />
+    </head>
+    <body>
+        <header>
+            <h1>WinJS Samples</h1>
+            <div data-win-control="WinJS.UI.SearchBox"></div>
+        </header>
+        <div data-win-control="WinJS.UI.Hub">
+            <div data-win-control="WinJS.UI.HubSection" data-win-options="{header: 'ListView', isHeaderStatic: true}">
+                <div class="tileTemplate" data-win-control="WinJS.Binding.Template">
+                    <div class="tile">
+                        <h6 class="point" data-win-bind="textContent: Point"></h6>
+                        <h1 class="letter" data-win-bind="textContent: Letter"></h1>
+                    </div>
+                </div>
+                <div data-win-control="WinJS.UI.ListView" data-win-options="{
+                    itemDataSource: Resources.Tiles.dataSource,
+                    itemTemplate: select('.tileTemplate'),
+                    layout: {
+                        type: WinJS.UI.GridLayout,
+                        orientation: 'vertical'
+                    },
+                    selectionMode: 'none',
+                    itemsReorderable: true
+            }"></div>
+                <div class="description">
+                    <h3>Description</h3>
+                    <span>A flexible control that allows you to display large amount of data in a customizable list which items can be for example reorderable.</span>
+                </div>
+                <button onclick="location.href = 'https://github.com/intellifactory/winjs/tree/master/index.html#L17-32'">Source</button>
+            </div>
+            <div data-win-control="WinJS.UI.HubSection" data-win-options="{header: 'ToggleSwitch', isHeaderStatic: true}">
+                <button id="toggleAll">Toggle all</button>
+                <div data-win-control="WinJS.UI.ToggleSwitch" data-win-options="{title: 'Wi-Fi', checked: true}"></div>
+                <div data-win-control="WinJS.UI.ToggleSwitch" data-win-options="{title: 'NFC'}"></div>
+                <div class="description">
+                    <h3>Description</h3>
+                    <span>A control that lets the user switch an option between two states.</span>
+                </div>
+                <button onclick="location.href = 'https://github.com/intellifactory/winjs/tree/master/Client.fs#L39-47'">Source</button>
+            </div>
+        </div>
+        <script src="Content/Tests.min.js"></script>
+    </body>
+</html>
