@@ -5,3 +5,4 @@ $d = mkdir build/html
 cp -r Content build/html/
 cp -r *.css build/html/
 cp -r *.html build/html/
+cp -r Resources build/html

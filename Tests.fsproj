@@ -106,10 +106,15 @@
     </VisualStudio>
   </ProjectExtensions>
   <ItemGroup>
+    <Compile Include="Resources.fs" />
+    <Compile Include="Application.fs" />
     <Compile Include="Client.fs" />
     <Content Include="index.html" />
     <Content Include="Web.config" />
     <None Include="packages.config" />
+    <None Include="Resources\Images\02834_canopy_480x272.jpg" />
+    <None Include="Resources\Images\03116_oxtonguerapids_480x272.jpg" />
+    <None Include="Resources\Images\60Vanilla.png" />
     <None Include="Styles.css" />
   </ItemGroup>
   <ItemGroup>
