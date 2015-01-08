@@ -7,6 +7,7 @@ open IntelliFactory.WebSharper.WinJS
 module Client =
     
     open IntelliFactory.WebSharper.JQuery
+    open IntelliFactory.WebSharper.JavaScript
 
     type Resources = {
         Tiles               : WinJS.Binding.List.T<Tile>

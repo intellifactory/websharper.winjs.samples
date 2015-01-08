@@ -5,7 +5,7 @@ open IntelliFactory.WebSharper
 [<JavaScript; AutoOpen>]
 module Resources =
     
-    open IntelliFactory.WebSharper.EcmaScript
+    open IntelliFactory.WebSharper.JavaScript
 
     type Image =
         {

@@ -1,6 +1,7 @@
 ﻿namespace Tests
 
 open IntelliFactory.WebSharper
+open IntelliFactory.WebSharper.JavaScript
 
 [<JavaScript>]
 module Application =
