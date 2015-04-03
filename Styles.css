@@ -1,0 +1,84 @@
+﻿header {
+    padding: 8px 32px;
+    display: flexbox;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.win-hub {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: auto;
+}
+
+.win-hub-section {
+    width: 480px;
+}
+
+.win-hub-horizontal .win-hub-section-header {
+    margin: 8px 0 16px 0;
+}
+
+.tile {
+    width: 76px;
+    height: 76px;
+    padding: 2px;
+    background-color: #ffffcc;
+    border: 2px solid #663300;
+    color: black;
+    border-radius: 4px;
+    text-align: center;
+    cursor: move;
+}
+
+.tile > h1 {
+    font-weight: bold;
+    line-height: 76px;
+}
+
+.win-listview {
+    margin-bottom: 16px;
+    height: 376px;
+}
+
+.win-listview .win-container:hover {
+    outline: none;
+}
+
+button {
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.win-toggleswitch {
+    padding-bottom: 16px
+}
+
+p {
+    margin: 16px 0;
+}
+
+.win-flipview {
+    height: 272px;
+    margin-bottom: 16px;
+}
+
+.image {
+    width: 480px;
+    height: 272px;
+}
+
+.image > h2 {
+    position: absolute;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.setting {
+    margin-bottom: 16px;
+    cursor: pointer;
+}
