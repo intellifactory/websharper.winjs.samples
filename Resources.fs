@@ -1,11 +1,11 @@
 ﻿namespace Tests
 
-open IntelliFactory.WebSharper
+open WebSharper
 
 [<JavaScript; AutoOpen>]
 module Resources =
     
-    open IntelliFactory.WebSharper.JavaScript
+    open WebSharper.JavaScript
 
     type Image =
         {

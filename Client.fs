@@ -1,13 +1,13 @@
 namespace Tests
 
-open IntelliFactory.WebSharper
-open IntelliFactory.WebSharper.WinJS
+open WebSharper
+open WebSharper.WinJS
 
 [<JavaScript; Require(typeof<Resources.DarkTheme>)>]
 module Client =
     
-    open IntelliFactory.WebSharper.JQuery
-    open IntelliFactory.WebSharper.JavaScript
+    open WebSharper.JQuery
+    open WebSharper.JavaScript
 
     type Resources = {
         Tiles               : WinJS.Binding.List.T<Tile>
